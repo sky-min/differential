@@ -1,4 +1,6 @@
 # differential
+미분의 오차를 줄이기 위해 중앙차분 방법 사용
+
 ## result
 
 ### vscode
