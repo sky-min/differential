@@ -30,7 +30,7 @@ graph.plot(x, y2, 'g') #미분한 함수 그리기
 
 tf = line(fx, xx)
 y3 = tf(x)
-graph.plot(x, y3, 'm') #접선 그리기
+graph.plot(x, y3, 'm') #미분함수 접선 그리기
 
 graph.ylim(lim_y1, lim_y2)
 graph.show() #그래프 보내기
