@@ -5,7 +5,7 @@ def fx(x): #함수
     return x**3 + 2*x**2 - 4*x - 2
 
 def differential(f, x):  #미분 함수
-    h = 0.0000000001
+    h = 0.0000000001 #0의 극한
     return (f(x+h) - f(x-h)) / (2*h) #중앙차분
     #return (f(x+h) - f(x)) / h  도함수
 
