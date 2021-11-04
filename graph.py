@@ -6,8 +6,9 @@ def fx(x): #함수
 
 def differential(f, x):  #미분 함수
     h = 0.0000000001 #0의 극한
-    return (f(x+h) - f(x-h)) / (2*h) #중앙차분
-    #return (f(x+h) - f(x)) / h  도함수
+    return (f(x+h) - f(x-h)) / (2*h) #중앙차분법
+    #return (f(x+h) - f(x)) / h 전진차분법(도함수)
+    #return (f(x) - f(x-h)) / h 후진차분법
 
 def line(f, x): #미분함수의 접선함수
     d = differential(f, x)
