@@ -9,7 +9,7 @@ def differential(f, x):  #미분 함수
     return (f(x+h) - f(x-h)) / (2*h) #중앙차분
     #return (f(x+h) - f(x)) / h  도함수
 
-def line(f, x): 미분함수의 접선함수
+def line(f, x): #미분함수의 접선함수
     d = differential(f, x)
     y = f(x) - d*x
     return lambda t: d*t + y
