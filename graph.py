@@ -6,7 +6,8 @@ def fx(x): #함수
 
 def differential(f, x):  #미분 함수
     h = 0.0000000001
-    return (f(x+h) - f(x-h)) / (2*h)
+    return (f(x+h) - f(x-h)) / (2*h) #중앙차분
+    #return (f(x+h) - f(x)) / h  도함수
 
 def line(f, x):
     d = differential(f, x)
